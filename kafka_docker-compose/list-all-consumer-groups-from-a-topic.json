@@ -1,0 +1,145 @@
+[
+ {
+   "id": "json-consumer",
+   "simpleConsumerGroup": false,
+   "partitionAssignor": "range",
+   "state": "STABLE",
+   "coordinator": {
+     "id": 0,
+     "host": "kafka",
+     "port": 9092
+   },
+   "members": [
+     {
+       "id": "rdkafka-492f5870-1ccf-4ab9-bc6c-cf4236be4337",
+       "clientId": "rdkafka",
+       "host": "/172.21.0.9",
+       "assignments": [
+         {
+           "topic": "json",
+           "partition": 0
+         },
+         {
+           "topic": "json",
+           "partition": 1
+         },
+         {
+           "topic": "json",
+           "partition": 2
+         },
+         {
+           "topic": "json",
+           "partition": 3
+         },
+         {
+           "topic": "json",
+           "partition": 4
+         },
+         {
+           "topic": "json",
+           "partition": 5
+         },
+         {
+           "topic": "json",
+           "partition": 6
+         },
+         {
+           "topic": "json",
+           "partition": 7
+         },
+         {
+           "topic": "json",
+           "partition": 8
+         },
+         {
+           "topic": "json",
+           "partition": 9
+         },
+         {
+           "topic": "json",
+           "partition": 10
+         },
+         {
+           "topic": "json",
+           "partition": 11
+         }
+       ]
+     }
+   ],
+   "offsets": [
+     {
+       "topic": "json",
+       "partition": 0
+     },
+     {
+       "topic": "json",
+       "partition": 1
+     },
+     {
+       "topic": "json",
+       "partition": 2
+     },
+     {
+       "topic": "json",
+       "partition": 3
+     },
+     {
+       "topic": "json",
+       "partition": 4
+     },
+     {
+       "topic": "json",
+       "partition": 5
+     },
+     {
+       "topic": "json",
+       "partition": 6
+     },
+     {
+       "topic": "json",
+       "partition": 7
+     },
+     {
+       "topic": "json",
+       "partition": 8
+     },
+     {
+       "topic": "json",
+       "partition": 9
+     },
+     {
+       "topic": "json",
+       "partition": 10
+     },
+     {
+       "topic": "json",
+       "partition": 11
+     }
+   ],
+   "topics": [
+     "json"
+   ],
+   "activeTopics": [
+     "json"
+   ]
+ }
+]
+
+
+
+curl 'http://localhost:8080/api/docker-kafka-server/topic/json/groups' \
+  -H 'Accept-Language: en-US,en-GB;q=0.9,en;q=0.8' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://localhost:8080/api' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36' \
+  -H 'accept: application/json' \
+  -H 'sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"'
+
+
+  // Read datas from a topic
+  // Retrieve a consumer group offsets - best approach with less overhead

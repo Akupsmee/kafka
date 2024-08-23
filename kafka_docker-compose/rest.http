@@ -1,0 +1,16 @@
+POST http://localhost:3010 
+content-type: application/json
+
+{
+    "userId": "678",
+    "price": 35.330990
+}
+
+
+# confluent kafka acl list --resource-type Subject --resource-name com.obi.salesrep.inquiry.sanitized.v1.InquiryCreated
+
+
+# confluent kafka acl create --allow  User:i.akupuome@reply.de --resource-type Subject --resource-name srt-da-devtest.konsys-inquiry-sanitized-avro-papi.inquiry-sanitized.c.v1-value
+
+
+# confluent kafka acl create --allow --user i.akupuome@reply.de --operations read,describe,write --topic 'srt-da-devtest.konsys-inquiry-sanitized-avro-papi.inquiry-sanitized.c.v1'

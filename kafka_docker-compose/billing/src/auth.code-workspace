@@ -1,0 +1,20 @@
+{
+  "folders": [
+	{
+		"path": "../../auth"
+	},
+	{
+		"path": "../../api-gateway"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#0E3505",
+      "titleBar.activeBackground": "#134B08",
+      "titleBar.activeForeground": "#F2FEEF"
+    }
+  }
+}

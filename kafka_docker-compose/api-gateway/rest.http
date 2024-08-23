@@ -1,0 +1,9 @@
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+    "userId": "678",
+    "price": 18.399
+
+}
+

@@ -1,0 +1,545 @@
+{
+  "name": "json",
+  "internal": false,
+  "partitions": [
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 0,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 0,
+          "size": 0,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 0,
+      "logDirSize": 0
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 1,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 1,
+          "size": 0,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 0,
+      "logDirSize": 0
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 2,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 2,
+          "size": 0,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 0,
+      "logDirSize": 0
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 3,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 3,
+          "size": 216,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 2,
+      "logDirSize": 216
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 4,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 4,
+          "size": 171,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 1,
+      "logDirSize": 171
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 5,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 5,
+          "size": 171,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 1,
+      "logDirSize": 171
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 6,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 6,
+          "size": 0,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 0,
+      "logDirSize": 0
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 7,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 7,
+          "size": 170,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 1,
+      "logDirSize": 170
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 8,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 8,
+          "size": 0,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 0,
+      "logDirSize": 0
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 9,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 9,
+          "size": 0,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 0,
+      "logDirSize": 0
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 10,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 10,
+          "size": 0,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 0,
+      "logDirSize": 0
+    },
+    {
+      "leader": {
+        "id": 0,
+        "host": "kafka",
+        "port": 9092,
+        "leader": true,
+        "inSyncReplicas": true
+      },
+      "id": 11,
+      "topic": "json",
+      "nodes": [
+        {
+          "id": 0,
+          "host": "kafka",
+          "port": 9092,
+          "leader": true,
+          "inSyncReplicas": true
+        }
+      ],
+      "logDir": [
+        {
+          "brokerId": 0,
+          "path": "/var/lib/kafka/data",
+          "topic": "json",
+          "partition": 11,
+          "size": 170,
+          "offsetLag": 0,
+          "future": false
+        }
+      ],
+      "firstOffset": 0,
+      "lastOffset": 1,
+      "logDirSize": 170
+    }
+  ],
+  "logDir": [
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 0,
+      "size": 0,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 1,
+      "size": 0,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 2,
+      "size": 0,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 3,
+      "size": 216,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 4,
+      "size": 171,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 5,
+      "size": 171,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 6,
+      "size": 0,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 7,
+      "size": 170,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 8,
+      "size": 0,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 9,
+      "size": 0,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 10,
+      "size": 0,
+      "offsetLag": 0,
+      "future": false
+    },
+    {
+      "brokerId": 0,
+      "path": "/var/lib/kafka/data",
+      "topic": "json",
+      "partition": 11,
+      "size": 170,
+      "offsetLag": 0,
+      "future": false
+    }
+  ],
+  "size": 6,
+  "inSyncReplicaCount": 1,
+  "streamTopic": false,
+  "internalTopic": false,
+  "replicaCount": 1,
+  "logDirSize": 898
+}
+
+curl 'http://localhost:8080/api/<cluster-name>/topic/<topic-name>' \
+  -H 'Accept-Language: en-US,en-GB;q=0.9,en;q=0.8' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://localhost:8080/api' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36' \
+  -H 'accept: application/json' \
+  -H 'sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"'
+
+  
